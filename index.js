@@ -2,7 +2,6 @@ let salario = 2000;
 let metaSalarial = 10000;
 let periodoMesesParaAumento = 6;
 let reajusteSalarial = .10;
-
 let meses = 1;
 
 while (salario < metaSalarial) {
@@ -13,4 +12,4 @@ while (salario < metaSalarial) {
 	console.log(`Salário: R$${salario.toFixed(2)}`);
 	meses++;
 }
-console.log(`O tempo necessário para alcançar o a meta salarial de R$${metaSalarial} foi de ${Math.floor(meses/12)} ano(s) e ${meses%12} mes(es).`)
+console.log(`O tempo necessário para alcançar a meta salarial de R$${metaSalarial} foi de ${Math.floor(meses/12)} ano(s) e ${meses%12} mes(es).`)
